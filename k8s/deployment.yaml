@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: 547451919785.dkr.ecr.us-east-1.amazonaws.com/dev/docker:1
+          image: 547451919785.dkr.ecr.us-east-1.amazonaws.com/dev/docker:2
           ports:
             - containerPort: 8080
