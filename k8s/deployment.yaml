@@ -19,6 +19,6 @@ spec:
         - name: ecr-secret
       containers:
         - name: sample-app
-          image: 547451919785.dkr.ecr.us-east-1.amazonaws.com/dev/docker:3
+          image: 547451919785.dkr.ecr.us-east-1.amazonaws.com/dev/docker:4
           ports:
             - containerPort: 8080
