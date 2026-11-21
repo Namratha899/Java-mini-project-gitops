@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: payment-app
-          image: 547451919785.dkr.ecr.us-east-1.amazonaws.com/dev/docker:1
+          image: 547451919785.dkr.ecr.us-east-1.amazonaws.com/dev/docker:5
           ports:
             - containerPort: 8080
           resources:
